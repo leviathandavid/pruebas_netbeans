@@ -14,7 +14,9 @@ import javax.swing.JOptionPane;
 public class Main {
     
     public static void main(String[]a){
-        JOptionPane.showMessageDialog(null, "Hola mundo desde github proceso inverso");
+        String nombre = "";
+        nombre = JOptionPane.showInputDialog(null, "Ingrese su nombre:");
+        JOptionPane.showMessageDialog(null, "Hola " + nombre);
     }
     
 }
