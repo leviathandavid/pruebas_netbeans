@@ -15,7 +15,6 @@ public class Main {
     
     public static void main(String[]a){
         JOptionPane.showMessageDialog(null, "Hola mundo desde github proceso inverso");
-    
     }
     
 }
