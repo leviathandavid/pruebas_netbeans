@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 public class Main {
     
     public static void main(String[]a){
-        JOptionPane.showInternalMessageDialog(null, "Hola mundo desde github \"proceso inverso\"");
+        JOptionPane.showMessageDialog(null, "Hola mundo desde github proceso inverso");
     
     }
     
